@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+US+Trad+Guides&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(background2.jpg);
+  background-repeat: no-repeat;
+  background-size:100%;
+}
+.nice-fonnt{
+font-family: "Playwrite US Trad Guides", serif;
+font-weight: 400;
+font-style: normal;
+padding: 0;margin: 0;
+}
+.popup{
+  background: linear-gradient(transparent, bisque 25%);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top:50%;
+  
+  
+  
+}
+.popup h3{
+  text-align: center;
+  
+}
+.img-popup{
+  width: 50%;
+  height: 40%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup h1{
+  text-align: center;
+}
+#close{
+  font-family: "Playwrite US Trad Guides", serif;
+font-weight: 400;
+font-style: normal;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.text{
+  white-space: nowrap;
+  overflow: hidden;
+}
+.wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:bisque;
+  width: 100vw;
+  height: 10vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.container h1:nth-child(1){
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  opacity: 0;
+  font-size: 100%;
+  animation: type3 3s steps(40, end);
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes type3{
+  0%{
+    width: 0;
+  }
+  1%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.navbar{
+  width: 100%;
+  height: 5vh;
+  background-color:blanchedalmond;
+  margin-top: 0;
+  padding-top: 0;
+}
+ul{
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  padding-top: 1vh;
+}
+li{
+  left: k;
+
+}
+.a-navbar-1{
+  background-color:bisque;
+}
+.a-navbar-2{
+  background-color: bisque;
+}
+a{
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  width: 1000vw;
+
+}
+a:hover{
+  cursor: pointer;
+}
+.content1 img{
+  width: 100%;
+  height: 50%;
+  margin-bottom: 0;
+}
+.launch-time{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.launch-time div{
+ flex-basis: 100px;
+ justify-content: center;
+ align-items: center;
+}
+.launch-time p{
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color:darksalmon;
+}
+.launch-time span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: darksalmon;
+}
+button{
+  border: 2px solid white;
+  background-color: bisque;
+  font-size: 30px;
+  border-radius: 20px;
+}
+.video1{
+  border-radius: 20px;
+  border: 10px solid antiquewhite;
+}
